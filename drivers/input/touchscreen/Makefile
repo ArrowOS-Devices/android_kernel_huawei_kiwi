@@ -85,3 +85,4 @@ obj-$(CONFIG_INPUT_MT_WRAPPER)		+= input_mt_wrapper.o
 obj-$(CONFIG_TOUCHSCREEN_IT7260_I2C)    += it7258_ts_i2c.o
 obj-$(CONFIG_HUAWEI_KERNEL) += hw_tp_common.o
 obj-$(CONFIG_HUAWEI_KERNEL)		+= cyttsp5_cs445a/
+ccflags-y += -Wno-array-bounds
